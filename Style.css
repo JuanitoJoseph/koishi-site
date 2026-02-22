@@ -1,0 +1,246 @@
+@charset "utf-8";
+@font-face {
+    font-family:'CoolHeadline';
+    src: url(Fonts/vtmeoobl.TTF) format('truetype');
+}            
+   
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@226&display=swap');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(Images/Th135_Palace_of_the_Earth_Spirits.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;   
+    background-color: #5B2D64;
+}
+
+    
+.Content {
+    width: 60%;
+    max-width: 900px;
+    margin: 8vh auto;          
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+    box-shadow: 0 0 20px darkgreen;
+    
+   
+    min-height: 40vh;       
+    box-sizing: border-box;
+}
+
+.Content > h1{
+      font-family: "WDXL Lubrifont JP N", sans-serif;
+      font-weight: 400;
+      font-size: xx-large;
+      font-weight: bold;
+      text-align: center;
+      background-color: rgba(191, 246, 181, 0.5);
+      text-shadow: 2px 2px 0px black;
+      border-radius: 5px;
+
+}
+
+.Content  h3 {
+    font-family: "WDXL Lubrifont JP N", sans-serif;
+    position: relative;
+    text-align: left;
+    font-weight: normal;
+    font-size: xx-large;
+    text-shadow: 2px 2px 0px black;
+    color: rgb(255, 211, 113);
+    z-index: 2;
+}
+
+.Content  h3::after {
+    content: "";
+    position: absolute;
+    left: 0;            
+    bottom: -10px;      
+    width: 100%;        
+    height: 6px;        
+    background-color: rgba(255, 211, 11, 0.6);
+    border-radius: 3px;
+    filter: blur(8px);  
+    box-shadow: 0 0 10px rgba(255, 211, 11,0.7),
+                0 0 20px rgba(255, 211, 11,0.5);
+}
+
+.centerimage{
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+}
+
+
+.Content p{
+ font-family:  "Noto Serif JP", serif;;
+}
+
+.Content div{
+    font-family:"Noto Serif JP", serif;
+}
+
+.Content h2{
+    font-family: "Noto Serif JP", serif;
+    color: #a86ec9;
+}
+
+.Seikaku{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.Seikaku img{
+    max-width: 30%;
+    height: 170px;
+}
+
+.Seikaku p{
+    margin-top: 0   ;
+    flex: 1;
+}
+
+.Seikaku2{
+    margin-top: 0;
+}
+
+.Seikaku2 > span{
+font-weight: bolder; 
+font-size: x-large;
+color: #a86ec9; 
+    text-shadow:
+        -1px -1px 0 rgb(255, 255, 255, 0.5),
+         1px -1px 0 rgb(255, 255, 255, 0.5),
+        -1px  1px 0 rgb(255, 255, 255, 0.5),
+         1px  1px 0 rgb(255, 255, 255, 0.5);
+
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.title {
+    border-bottom: 3px solid #a86ec9;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #a86ec4;
+    align-items: center;
+}
+
+.finalrow{
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+    align-items: center;
+}
+
+.row img {
+    width: 120px;
+    height: 120px;
+}
+
+.finalrow img {
+    width: 120px;
+    height: 120px;
+}
+
+.ultimaterow img{
+width: 120px;
+height: 120px;
+}
+
+.ultimaterow{
+      display: flex;
+    gap: 20px;
+    padding: 15px 0;
+    border-bottom: 5px solid #a86ec4;
+        align-items: center;
+
+}
+
+.text> span{
+    font-family: "Noto Serif JP", serif;
+    font-size: large  ;
+    font-weight: bolder;
+}
+
+h4{
+   font-family: "Noto Serif JP", serif; 
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: rgb(0, 0, 0. 0.5);
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+.Theme {
+    width: auto;           
+    max-width: 1200px;     
+    margin:20px auto;       
+        aspect-ratio: 16 / 9;    
+}
+
+.Theme iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.Content a:hover{
+    color: rgba(191, 246, 181,1);
+    text-decoration: underline;
+}
+
+a{
+    color: #a86ec4;
+    text-decoration: none;
+}
+
+.thanks{
+      font-family: "WDXL Lubrifont JP N", sans-serif;
+      font-weight: 400;
+      font-size: xx-large;
+      font-weight: bold;
+      text-align: center;
+      background-color: rgba(191, 246, 181, 0.5);
+      text-shadow: 2px 2px 0px black;
+      border-radius: 5px;
+}
+
+.signature{
+    display: flex;
+    gap: 10px;
+   
+}
+
+.signature img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.signature div{
+    margin-top: 30px;
+    font-size: 16px;
+
+}
